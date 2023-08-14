@@ -1,0 +1,9 @@
+
+//ADD YOUR FIREBASE LINKS HERE
+function adduser() {
+  user_name = document.getElementById("user_name").value;
+
+  localStorage.setItem("Username",user_name);
+
+  window.location = "kwitter_room.html";
+}
